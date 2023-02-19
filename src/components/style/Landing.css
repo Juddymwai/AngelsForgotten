@@ -1,5 +1,9 @@
+.hero {
+  margin-bottom: 5vh;
+}
+
+
 .hero-title {
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,6 +15,8 @@
   top: 28vh;
   color: white;
 }
+
+
 .hero-image{
   background-image: url("../assests/hero.jpeg");
   height:80vh;
@@ -22,6 +28,92 @@
 .color{
   background-color:#94DA89;
   height:8vh;
-  width:100%;
+  
+}
+
+.h-line {
+  background-color: white;
+  height: 2px;
+  width: 25vw;
+}
+
+
+.about-us {
+  height: 55vh;
+  background-color: #E3F1D7;
+  display: flex;
+  padding: 5rem 5rem 5rem 0;
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 5vh;
+  align-items: center;
+
+}
+
+
+.about-us img {
+  width: 20vw;
+}
+
+
+.about-us .about {
+  transform: rotate(-90deg);
+  width: 30vh;  
+  opacity: 0.2;
+  margin-left: -3vw;
+  margin-right: -1  vw;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+
+.content span {
+  color: #94DA89;
+}
+
+.content button {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 10vw;
+  font-size: 20px;
+  border: none;
+  margin-top: 2vh;
+}
+
+.what-we-do {
+  text-align: center;
+  width: 80vw;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.what-we-do span {
+  color: #94DA89;
+}
+
+.card-flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+}
+
+.text-center {
+  height: 20vh;
+  background-color: #F8F5F5;
+  border: none;
+}
+
+.text-center .dets {
+  padding-top: 4vh;
+}
+
+.text-center img {
+  margin-bottom: 4vh;
+}
+
+.gallery {
+  text-align: center;
   
 }

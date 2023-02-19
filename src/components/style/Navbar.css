@@ -2,26 +2,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
   width: 50vw;
   margin: auto;
   height:7vh;
   background-color: white;
   position: absolute;
   left: 22vw;
-  top: 4vh;
+  top: 4.7vh;
 
-
-
-
-  
 }
 .menu li{
-  margin-right: 5vw;
+  margin-right: 7vw;
   list-style:none ;
-  /* color:black; */
+
   
-
-
 }
 
+.menu img {
+  height: 4rem;
+  margin-left: -5vw;
+}
