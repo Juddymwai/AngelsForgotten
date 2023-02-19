@@ -1,0 +1,18 @@
+.hero-image{
+  background-image: url("../assests/hero.jpeg");
+  height:80vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+.gallery-page h2 {
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background-color: #E3F1D7;
+  min-height: 50vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}

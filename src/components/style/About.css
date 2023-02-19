@@ -1,0 +1,107 @@
+
+.about-header {
+  background-color: black;
+  height: 35vh;
+  position: relative;
+  top: 9.5vh;
+}
+
+
+.about-text {
+  width: 50vw;
+  text-align: center;
+  margin: auto;
+  padding-top: 10vh;
+  
+}
+
+
+.about-text p {
+  font-size: 18px;
+  color: white;
+}
+
+
+.angels {
+  margin-left: 5vw;
+  margin-top: 15vh;
+
+}
+
+
+.mission-v {
+  display: flex;
+  margin-left: 5vw;
+
+}
+
+
+.aboutus span {
+  color: #94DA89;
+}
+
+
+.mission {
+  width: 60vw;
+  margin-top: 2vh;
+}
+
+
+.vis-mis  {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+
+}
+
+
+.vis-mis p {
+  margin-right: 38vw;
+}
+
+.arrow-line {
+  position: relative;
+  height: 100px; /* adjust to your desired height */
+  width: 0.5px; /* adjust to your desired width */
+  margin: 0 auto;
+
+  border: 1px solid #94DA89;
+  /* transform: rotate(-90deg); */
+}
+
+.arrow-line::before,
+.arrow-line::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent; /* adjust arrow size here */
+}
+
+.arrow-line::before {
+  top: -7px;
+  left: -5px; /* adjust arrow distance from line */
+  border-right-color: #94DA89; /* adjust arrow color */
+  transform: rotate(90deg);
+}
+
+.arrow-line::after {
+  top: 96px;
+  right: -5px; /* adjust arrow distance from line */
+  border-left-color: #94DA89; /* adjust arrow color */
+  transform: rotate(-270deg);
+}
+
+
+.history,
+.donor {
+  margin: 5vw;
+  width: 70vw;
+}
+
+.history p, 
+.donor p {
+  margin-top: 2vh;
+}

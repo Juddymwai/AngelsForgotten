@@ -2,7 +2,13 @@ import React from "react";
 
 function Donate(){
   return(
-    <h1>Donate</h1>
+    <div>
+      <div className="hero-image">
+        <div className="hero-title">
+           
+          </div>
+      </div>
+    </div>
   )
 }
 

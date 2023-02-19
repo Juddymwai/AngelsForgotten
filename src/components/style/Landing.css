@@ -1,5 +1,5 @@
 .hero {
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
 }
 
 
@@ -22,12 +22,18 @@
   height:80vh;
   background-size: cover;
   background-position: center;
-
+  position: relative;
+  top: 7vh;
 
 }
+
+
 .color{
   background-color:#94DA89;
-  height:8vh;
+  position: fixed;
+  height:7vh;
+  z-index: 1;
+  width: 100vw;
   
 }
 
@@ -68,7 +74,7 @@
 }
 
 
-.content span {
+.content span, .what-we-do span, .our-story span, .gallery span {
   color: #94DA89;
 }
 
@@ -87,11 +93,9 @@
   width: 80vw;
   margin: auto;
   margin-top: 10vh;
+  margin-bottom: 5vh;
 }
 
-.what-we-do span {
-  color: #94DA89;
-}
 
 .card-flex {
   display: flex;
@@ -100,20 +104,62 @@
 }
 
 .text-center {
-  height: 20vh;
+  height: 25vh;
   background-color: #F8F5F5;
   border: none;
 }
 
 .text-center .dets {
-  padding-top: 4vh;
+  padding-top: 6vh;
 }
 
 .text-center img {
-  margin-bottom: 4vh;
+  margin-bottom: 6vh;
 }
 
 .gallery {
   text-align: center;
-  
+  margin-top: 5vh;
+  margin-bottom: 7vh;
+}
+
+.gallery div {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4vh;
+}
+
+.gallery img {
+  width: 17vw;
+}
+
+
+.our-story {
+  text-align: center;
+  background-color: #E3F1D7;
+  padding-top: 2vh;
+}
+
+.our-story > div {
+  display: flex;
+  justify-content: center;
+
+}
+
+.our-story > div img {
+  width: 35vw;
+}
+
+.our-story > p {
+  margin-bottom: 3vh;
+}
+
+.our-story > div p {
+  position: relative;
+  bottom: 7vh;
+  color: white;
+  font-weight:bolder ;
+  font-size: 30px;
 }

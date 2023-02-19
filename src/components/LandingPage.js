@@ -6,7 +6,7 @@ function LandingPage(){
   return(
     <div>
       <div className="hero">
-        <div className="color"></div>
+        {/* <div className="color"></div> */}
         <div className="hero-image">
           <div className="hero-title">
             <div className="h-line" style={{ marginBottom: 2+"vh" }}></div>
@@ -57,10 +57,29 @@ function LandingPage(){
         </div>
       </div>
 
-      <div className="gallery">
-        <h2>Our <span>Gallery</span></h2>
+      <div className="our-story">
+        <h2>Our <span color="red">Story</span></h2>
+        <p>From this to that, it is our goal to transform this part of Kenya. <br/>
+          Just like a bird, twig by twig the nest is completed</p>
         <div>
+          <div>
+            <img style={{ marginRight: 4+"vw" }} src={require("./assests/before.png")} alt="before" />
+            <p>Before</p>
+          </div>
+          <div>
+            <img style={{ width: 33.6+"vw" }} src={require("./assests/after.png")} alt="before" />
+            <p>After</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="gallery">
+        <h2><span>Our</span> Gallery</h2>
+        <div>
+          <img src={require("./assests/house.png")} alt="..." />
           <img src={require("./assests/girls.png")} alt="..." />
+          <img src={require("./assests/children.png")} alt="..." />
+          <img src={require("./assests/toddler.png")} alt="..." />
         </div>
       </div>
     </div>

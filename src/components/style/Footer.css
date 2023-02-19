@@ -1,0 +1,33 @@
+footer h2 {
+  text-align: center;
+  padding-bottom: 2vh;
+}
+footer {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+
+footer .icons {
+  display: flex;
+  justify-content: center;
+
+}
+
+footer .v-line {
+  margin-top: 1vh;
+  height: 15vh;
+  width: 2px;
+  background-color: grey;
+  margin-right: 3vw;
+  margin-left: 3vw;
+}
+
+footer .icons1 {
+  margin-left: -4vw;
+
+}
+
+footer .icons1 p {
+  padding-bottom: 7px;
+}
