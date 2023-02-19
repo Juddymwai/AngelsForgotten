@@ -1,5 +1,5 @@
 .hero-title {
-  border: 1px solid red;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +9,7 @@
   text-align: center;
   position: relative;
   top: 28vh;
-  color: azure;
+  color: white;
 }
 .hero-image{
   background-image: url("../assests/hero.jpeg");
@@ -24,6 +24,4 @@
   height:8vh;
   /* width:100%; */
   
-
-
 }
