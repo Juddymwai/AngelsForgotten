@@ -88,6 +88,12 @@
   margin-top: 2vh;
 }
 
+.content button:hover {
+  color: #94DA89;
+  background-color: rgb(70, 68, 68);
+
+}
+
 .what-we-do {
   text-align: center;
   width: 80vw;

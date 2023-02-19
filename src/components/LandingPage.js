@@ -1,8 +1,21 @@
 
 import React from "react";
+import { useNavigate } from "react-router";
 import './style/Landing.css'
 
+
+
 function LandingPage(){
+
+  const navigate = useNavigate()
+
+  function aboutus (){
+    navigate("/aboutus")
+  }
+
+
+
+
   return(
     <div>
       <div className="hero">
@@ -28,7 +41,7 @@ function LandingPage(){
           <h2>About <span>Us</span></h2>
           <p>We are a Non-profit Organization. <br/>
             We envision a world where no child is deprived of the basic necessities required for a stable happy, productive and rewarding life...</p>
-            <button>Read More</button>
+            <button onClick={aboutus}>Read More</button>
         </div>
       </div>
 

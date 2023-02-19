@@ -28,6 +28,10 @@ footer .icons1 {
 
 }
 
+footer img {
+  height: 25px;
+}
+
 footer .icons1 p {
   padding-bottom: 7px;
 }
