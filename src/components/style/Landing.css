@@ -1,0 +1,27 @@
+.hero-title {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 28vh;
+  color: white;
+}
+.hero-image{
+  background-image: url("../assests/hero.jpeg");
+  height:80vh;
+  background-size: cover;
+  background-position: center;
+
+
+}
+.color{
+  background-color:#94DA89;
+  height:8vh;
+  width:100%;
+  
+}
