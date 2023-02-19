@@ -1,0 +1,14 @@
+.menu ul{
+  display: flex;
+  justify-content: center;
+
+
+  
+}
+.menu li{
+  margin-right: 5vw;
+  list-style:none ;
+
+
+}
+

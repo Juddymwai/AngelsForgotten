@@ -1,15 +1,16 @@
 import React from "react";
 import {NavLink} from 'react-router-dom'
+import './style/Navbar.css'
 
 function NavBar(){
   return(
-    <div>
-    <h1>hey navbar</h1>
+    <div className="menu">
+    
     <ul>
-      <li><NavLink to="/">Home</NavLink></li>
-      <li><NavLink to="/aboutus">AboutUs</NavLink></li>
-      <li><NavLink to="/gallery">Gallery</NavLink></li>
-      <li><NavLink to="/donate">Donate</NavLink></li>
+      <li><NavLink to="/" style={{textDecoration:"none"}}>Home</NavLink></li>
+      <li><NavLink to="/aboutus" style={{textDecoration:"none"}}>About Us</NavLink></li>
+      <li><NavLink to="/gallery" style={{textDecoration:"none"}}>Gallery</NavLink></li>
+      <li><NavLink to="/donate" style={{textDecoration:"none"}}>Donate</NavLink></li>
     </ul>
     </div>
    
