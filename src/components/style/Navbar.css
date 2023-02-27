@@ -18,7 +18,7 @@ ul {
   justify-content: center;
   align-items: center;
   width: 50vw;
-  margin: auto;
+  margin: auto; 
   height:8.7vh;
   list-style-type: none;
   background-color: #fff;
@@ -26,7 +26,6 @@ ul {
 
 li {
   margin-right: 7vw;
-  margin: 0 1rem;
   position: relative;
   margin-right: 7vw;
 }
@@ -61,4 +60,32 @@ li a.active::after {
 li a.active {
   color: #218c11;
   font-weight: bolder;
+}
+
+@media only screen and (max-width: 430px)
+{
+  .body {
+    color: red;
+  }
+ 
+  ul {
+    display: flex;
+    align-items: flex-start;
+    width: 50vw;
+    margin: auto;
+    height:7vh;
+  }
+
+  .menu img {
+    height: 4rem;
+    margin-left: -4vw;
+  }
+
+  li a:hover::after {
+    width: 50%;
+  }
+  
+  li a.active::after {
+    width: 50%;
+  }
 }

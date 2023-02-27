@@ -16,7 +16,7 @@ export default function Footer() {
 
   return (
     <footer>
-      <h2>Contact US</h2>
+      <h2>Contact Us</h2>
       <div className="icons">
         <div className="icons1">
           <p><FontAwesomeIcon icon="fa-solid fa-phone-volume" /> <span>+254714811003</span></p>

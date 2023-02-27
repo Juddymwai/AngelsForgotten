@@ -1,7 +1,7 @@
 
 .about-header {
   background-color: black;
-  height: 35vh;
+  height: 45vh;
   position: relative;
   top: 9.5vh;
 }
@@ -17,7 +17,7 @@
 
 
 .about-text p {
-  font-size: 18px;
+  font-size: 25px;
   color: white;
 }
 
@@ -28,10 +28,10 @@
 
 }
 
-
 .mission-v {
   display: flex;
   margin-left: 5vw;
+  align-items: center;
 
 }
 
@@ -42,7 +42,7 @@
 
 
 .mission {
-  width: 60vw;
+  /* width: 60vw; */
   margin-top: 2vh;
 }
 
@@ -104,4 +104,54 @@
 .history p, 
 .donor p {
   margin-top: 2vh;
+}
+
+
+
+@media only screen and (max-width: 430px)
+{
+  .about-text p {
+    font-size: 15px;
+    color: white;
+  }
+
+  .about-text {
+    width: 80vw;
+    padding-top: 7vh;
+    
+  }
+
+  .about-header {
+    height: 40vh;
+  }
+
+  .vis-mis  {
+    margin-left: 2vw;
+  
+  }
+  
+  .vis-mis p {
+    margin-right: 20vw;
+    margin-left: 2vw;
+  }
+
+  .angels img {
+    width: 8rem;
+    height: 8rem;
+    margin-left: -5rem;
+    margin-right: 20px;
+  }
+
+  .mission p {
+    font-size: 12px;
+
+  }
+
+  .aboutus h2 {
+    font-size: 20px;
+  }
+
+  .history p, .donor p {
+    font-size: 13px;
+  } 
 }

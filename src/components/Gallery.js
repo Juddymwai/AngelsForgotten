@@ -18,21 +18,26 @@ function Gallery(){
       <div className="gallery-page" >
         <h2>Gallery Collection</h2>
         <div className="gallery-collection">
-          {/* <div>
-            <img src={require("")} alt="..." />
-            <img src={require("")} alt="..." />
-            <img src={require("")} alt="..." />
+          <div className="gallery1">
+            <img src={require("./assests/junior1.png")} alt="..." />
+            <img src={require("./assests/camel.png")} alt="..." />
+            <img src={require("./assests/children.png")} alt="..." />
+          </div> 
+          <div className="gallery1">
+            <img src={require("./assests/boysJunior.png")} alt="..." />
+            <img src={require("./assests/ceremony.png")} alt="..." />
+            <img src={require("./assests/classroom.png")} alt="..." />
           </div>
-          <div>
-            <img src={require("")} alt="..." />
-            <img src={require("")} alt="..." />
-            <img src={require("")} alt="..." />
+          <div className="gallery1">
+            <img src={require("./assests/pekids.png")} alt="..." />
+            <img src={require("./assests/classroom.png")} alt="..." />
+            <img src={require("./assests/allJuniors.png")} alt="..." />
+          </div> 
+          <div className="gallery1">
+            <img src={require("./assests/toddler.png")} alt="..." />
+            <img src={require("./assests/classroom.png")} alt="..." />
+            <img src={require("./assests/allJuniors.png")} alt="..." />
           </div>
-          <div>
-            <img src={require("")} alt="..." />
-            <img src={require("")} alt="..." />
-            <img src={require("")} alt="..." />
-          </div> */}
         </div>
       </div>
     </div>

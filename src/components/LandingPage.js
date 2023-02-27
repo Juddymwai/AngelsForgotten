@@ -18,7 +18,6 @@ function LandingPage(){
 
   return(
     <div>
-      <div className="hero">
         {/* <div className="color"></div> */}
         <div className="hero-image">
           <div className="hero-title">
@@ -28,7 +27,6 @@ function LandingPage(){
             <div className="h-line" style={{ width: 15+"vw", marginTop: 2+"vh"  }}></div>
           </div>
         </div>
-      </div>
 
       <div className="about-us">
         <div>
@@ -55,7 +53,7 @@ function LandingPage(){
               <p className="card-text">Medical services</p>
             </div>
           </div>
-          <div className="card text-center mb-3" style={{width: 18+"rem"}}>
+          <div className="card text-center mb-3 two" style={{width: 18+"rem"}}>
             <div className="card-body dets">
               <img src={require("./assests/book.png")} alt="..." className="card-title" />
               <p className="card-text">Education</p>
@@ -75,11 +73,11 @@ function LandingPage(){
         <p>From this to that, it is our goal to transform this part of Kenya. <br/>
           Just like a bird, twig by twig the nest is completed</p>
         <div>
-          <div>
+          <div className="label">
             <img style={{ marginRight: 4+"vw" }} src={require("./assests/before.png")} alt="before" />
             <p>Before</p>
           </div>
-          <div>
+          <div className="label">
             <img style={{ width: 33.6+"vw" }} src={require("./assests/after.png")} alt="before" />
             <p>After</p>
           </div>
