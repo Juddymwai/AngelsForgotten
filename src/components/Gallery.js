@@ -34,9 +34,9 @@ function Gallery(){
             <img src={require("./assests/allJuniors.png")} alt="..." />
           </div> 
           <div className="gallery1">
-            <img src={require("./assests/toddler.png")} alt="..." />
-            <img src={require("./assests/classroom.png")} alt="..." />
-            <img src={require("./assests/allJuniors.png")} alt="..." />
+            <img src={require("./assests/student2.jpeg")} alt="..." />
+            <img src={require("./assests/student4.jpeg")} alt="..." />
+            <img src={require("./assests/students1.jpeg")} alt="..." />
           </div>
         </div>
       </div>
