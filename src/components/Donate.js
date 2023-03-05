@@ -18,7 +18,6 @@ function Donate(){
             <p className="don-image"><img src={require("./assests/pp.png")} alt=".." /><span><b>PayPal Email:</b> emunjugah@yahoo.com</span></p>
             <p className="don-image"><img src={require("./assests/pesa.png")} alt=".." /><span><b>M-pesa send money:</b> 0714811003</span> </p>
             <p><b>Name:</b> David Thairu</p>
-            {/* <i style={{color: "green"}} class="bi bi-whatsapp"></i><p>WhatsApp</p> */}
             <p>For Enquires Reach us through</p>
            <p><img src={require("./assests/whatsapp.png")} alt=".."/> <span>WhatsApp -0714811003</span></p> 
           </div>

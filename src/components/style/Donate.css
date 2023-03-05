@@ -23,7 +23,8 @@
   position: relative;
   top: 7vh;
   display: flex;
-
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -55,9 +56,10 @@
   text-align: center;
   justify-content:space-between;
   color: white;
-  margin-left: 30vw;
+  /* margin-left: 30vw; */
   align-items: center;
-  padding-top: 0vh;
+  margin-top: -5vh;
+  font-size: 20px;
   
 }
 

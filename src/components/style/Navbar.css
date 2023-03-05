@@ -13,6 +13,10 @@
 }
 
 
+.navbar-brand2 {
+  display: none;
+}
+
 ul {
   display: flex;
   justify-content: center;
@@ -64,16 +68,21 @@ li a.active {
 
 @media only screen and (max-width: 430px)
 {
-  .body {
-    color: red;
-  }
  
   ul {
     display: flex;
     align-items: flex-start;
-    width: 50vw;
-    margin: auto;
+    /* width: 70vw; */
+    /* margin: auto; */
     height:7vh;
+  }
+
+  .navbar-brand1 {
+    display: none;
+  }
+
+  .navbar-brand2 {
+    display: contents;
   }
 
   .menu img {
@@ -82,10 +91,10 @@ li a.active {
   }
 
   li a:hover::after {
-    width: 50%;
+    width: 100%;
   }
   
   li a.active::after {
-    width: 50%;
+    width: 100%;
   }
 }

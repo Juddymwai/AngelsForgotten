@@ -20,7 +20,7 @@ function LandingPage(){
     <div>
         {/* <div className="color"></div> */}
         <div className="hero-image">
-          <div className="hero-title">
+          <div className="hero-title2">
             <div className="h-line" style={{ marginBottom: 2+"vh" }}></div>
             <h2 style={{ marginBottom: 2+"vh" }}>BY FAITH AND HOPE ACADEMY</h2>
             <h4>Where Every Child Matters</h4>
