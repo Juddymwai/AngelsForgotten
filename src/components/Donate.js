@@ -7,7 +7,7 @@ function Donate(){
       <div className="hero-image1">
         <div className="hero-title1">
           <h2>We Can Make A difference,<br/> Lets Start Now!</h2>
-          <h2 style={{marginRight: "10vh"}}>Your donations will ensure<br/>our Angel get to <br/>learn comfortably</h2>
+          <h2 style={{marginRight: "10vh"}}>Your donations will ensure<br/>our Angels get to <br/>learn comfortably</h2>
         </div>
       </div>
     
